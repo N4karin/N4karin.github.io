@@ -1,0 +1,154 @@
+body{
+	background-image: url(bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+nav {
+	display: flex;
+	position: fixed;
+	width: 5%;
+	height: 95%;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-left: 5rem;
+	z-index: 10;
+}
+
+.image{
+	width:7rem;
+	height: 7rem;
+	transition-duration: 0.5s;
+}
+
+.image:hover{
+	transform: scale(1.1);
+	-webkit-filter: drop-shadow(5px 5px 5px #000000);
+	filter: drop-shadow(3px 3px 3px #000000);
+}
+
+.container{
+	display: inline-flex;
+	font-family: Calibri;
+	position: absolute;
+	z-index: 10;
+}
+
+.navbarel{
+	color: lightgrey;
+	transition-duration: 0.3s;
+	font-family: Calibri;
+	font-size: 175%;
+	font-weight: lighter;
+	text-decoration: none;
+}
+
+.navbarel:hover{
+	color: white;
+	transform: scale(1.1);
+	text-shadow: 1px 1px 3px #000000;
+}
+
+#content{
+	font-family: Calibri;
+	font-size: 1.2rem;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	height: 90%;
+	justify-content: center;
+	align-items: flex-start;
+	margin-right: 20rem;
+	margin-left: 15rem;
+	margin-top: 2rem;
+	z-index: 10;
+}
+
+#listWorks{
+	font-family: Calibri;
+	font-size: 1.1rem;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	height: 90%;
+	justify-content: center;
+	align-items: flex-start;
+	margin-top: 15rem;
+	margin-bottom: 10rem;
+	margin-left: 15rem;
+	margin-right: 15rem;
+	z-index: 10;
+}
+
+#contactContent{
+	font-family: Calibri;
+	font-size: 1.2rem;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	height: 90%;
+	justify-content: center;
+	align-items: flex-start;
+	margin-right: 20rem;
+	margin-left: 15rem;
+	margin-top: 2rem;
+	z-index: 10;
+}
+
+#title{
+	margin-left: 1rem;
+	font-weight: normal;
+}
+
+#smLinks{
+	display: flex;
+	position: fixed;
+	width: 90%;
+	height:90%;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-end;
+	margin-top: 20px;
+}
+
+#active{
+	font-family: Calibri;
+	font-size: 1.8rem;
+	/*font-weight: 400;*/
+	color:white;
+	text-decoration: none;
+	cursor:default;
+	transform: none;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.year{
+	font-size: 1.5rem;
+	margin-bottom: 0px;
+}
+
+.redirect{
+	margin-left: 1rem;
+	margin-top: 1rem;
+	color:black;
+	transition-duration: 0.2s;
+	text-decoration: none;
+}
+
+.redirect:hover{
+	color:lightgrey;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+
+ul{
+	font-size: 1.2rem;
+	list-style-type: none;
+	padding: 0px 0px;
+}
+
+li{
+	padding: 2px 0px;
+}
