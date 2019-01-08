@@ -16,6 +16,11 @@ nav {
 	z-index: 10;
 }
 
+iframe{
+	width: 650px;
+	height: 450px;
+}
+
 .image{
 	width:7rem;
 	height: 7rem;
@@ -66,12 +71,10 @@ nav {
 }
 
 #sc{
-	display: flex;
-	flex-direction: row;
-    align-items: center;
-	justify-content: center;
-	margin-left: 15rem;
-	margin-right: 17rem;
+	position: absolute;
+    margin: -100px 0 0 -200px;
+    top: 35%;
+	left: 36.4%;
 	z-index: 10;
 }
 
