@@ -65,6 +65,17 @@ nav {
 	z-index: 10;
 }
 
+#content2{
+	display: flex;
+	position: fixed;
+	width:100%;
+	height:100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: 10;
+}
+
 #listWorks{
 	font-family: Calibri;
 	font-size: 1.1rem;
